@@ -91,7 +91,7 @@ const Commands = () => {
   const isValidMove = () => {
     switch (getDirection(direction)) {
       case "NORTH":
-        return !isOutOfBounds(positionX + 1);
+        return !isOutOfBounds(positionY + 1);
       case "EAST":
         return !isOutOfBounds(positionX + 1);
       case "SOUTH":
